@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Versalox | Versaliate</title>
+  <meta name="description" content="Versalox by Versaliate. Coming soon." />
+
+  <style>
+    :root {
+      --forest: #243528;
+      --earth: #6f5a3d;
+      --sand: #e7dcc6;
+      --stone: #8f948b;
+      --sky: #6f91a8;
+      --dark: #111511;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(111, 145, 168, 0.28), transparent 34%),
+        radial-gradient(circle at bottom right, rgba(111, 90, 61, 0.34), transparent 36%),
+        linear-gradient(135deg, var(--forest), var(--dark));
+      color: var(--sand);
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 32px;
+    }
+
+    main {
+      width: min(100%, 760px);
+      padding: 56px 28px;
+    }
+
+    .studio {
+      margin: 0 0 18px;
+      font-size: clamp(1rem, 2.5vw, 1.25rem);
+      font-weight: 600;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: rgba(231, 220, 198, 0.78);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(4rem, 14vw, 9rem);
+      line-height: 0.9;
+      letter-spacing: -0.06em;
+      color: var(--sand);
+    }
+
+    .coming-soon {
+      margin: 28px 0 0;
+      font-size: clamp(1.15rem, 3.5vw, 1.8rem);
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(231, 220, 198, 0.72);
+    }
+
+    .line {
+      width: 72px;
+      height: 2px;
+      margin: 34px auto 0;
+      background: linear-gradient(90deg, var(--sky), var(--sand), var(--earth));
+      border-radius: 999px;
+      opacity: 0.85;
+    }
+
+    footer {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 22px;
+      font-size: 0.85rem;
+      color: rgba(231, 220, 198, 0.48);
+      padding: 0 18px;
+    }
+  </style>
+</head>
+<body>
+  <main aria-label="Versalox coming soon">
+    <p class="studio">Versaliate</p>
+    <h1>Versalox</h1>
+    <p class="coming-soon">Coming Soon</p>
+    <div class="line" aria-hidden="true"></div>
+  </main>
+
+  <footer>© 2026 Versaliate</footer>
+</body>
+</html>
