@@ -2,16 +2,33 @@
   const L = (de, en, fr, es, pt) => ({ de, en, fr, es, "pt-BR": pt });
 
   const ui = {
+    pageTitle: L("Versalox Codex | Versaliate", "Versalox Codex | Versaliate", "Codex Versalox | Versaliate", "Códice de Versalox | Versaliate", "Códice de Versalox | Versaliate"),
+    pageDescription: L("Entdecke Kreaturen, Flora, Materialien und Systeme aus Versalox im offiziellen Web-Codex.", "Explore creatures, flora, materials and systems from Versalox in the official web Codex.", "Découvrez les créatures, la flore, les matériaux et les systèmes de Versalox dans le Codex officiel.", "Descubre criaturas, flora, materiales y sistemas de Versalox en el Códice oficial.", "Descubra criaturas, flora, materiais e sistemas de Versalox no Códice oficial."),
+    skip: L("Zum Inhalt springen", "Skip to content", "Aller au contenu", "Saltar al contenido", "Ir para o conteúdo"),
+    navAria: L("Hauptnavigation", "Primary navigation", "Navigation principale", "Navegación principal", "Navegação principal"),
+    navVersalox: L("Versalox", "Versalox", "Versalox", "Versalox", "Versalox"),
+    navPrototype: L("Prototyp 0.0.2", "Prototype 0.0.2", "Prototype 0.0.2", "Prototipo 0.0.2", "Protótipo 0.0.2"),
+    navGames: L("Spiele", "Games", "Jeux", "Juegos", "Jogos"),
+    navCodex: L("Codex", "Codex", "Codex", "Códice", "Códice"),
+    languageLabel: L("Sprache", "Language", "Langue", "Idioma", "Idioma"),
     title: L("Codex", "Codex", "Codex", "Códice", "Códice"),
-    subtitle: L("Wissen aus den aktuell spielbaren Epochen.", "Knowledge from the currently playable eras.", "Connaissances des ères actuellement jouables.", "Conocimiento de las eras actualmente jugables.", "Conhecimento das eras atualmente jogáveis."),
-    close: L("Schließen", "Close", "Fermer", "Cerrar", "Fechar"),
+    eyebrow: L("Erkunde die Welt von Versalox", "Explore the world of Versalox", "Explorez le monde de Versalox", "Explora el mundo de Versalox", "Explore o mundo de Versalox"),
+    headline: L("Wissen wächst mit jeder Epoche.", "Knowledge grows with every era.", "Le savoir grandit à chaque ère.", "El conocimiento crece con cada era.", "O conhecimento cresce a cada era."),
+    intro: L("Entdecke Kreaturen, Flora, Ressourcen, Materialien und die Systeme, die das Überleben in Versalox prägen.", "Browse creatures, flora, resources, materials and the systems that shape survival in Versalox.", "Découvrez les créatures, la flore, les ressources, les matériaux et les systèmes qui façonnent la survie dans Versalox.", "Descubre criaturas, flora, recursos, materiales y los sistemas que definen la supervivencia en Versalox.", "Descubra criaturas, flora, recursos, materiais e os sistemas que moldam a sobrevivência em Versalox."),
+    libraryKicker: L("Wissenssammlung", "Knowledge base", "Base de connaissances", "Base de conocimiento", "Base de conhecimento"),
+    libraryTitle: L("Im Codex stöbern", "Browse the Codex", "Parcourir le Codex", "Explorar el Códice", "Explorar o Códice"),
+    libraryCopy: L("Der Web-Codex wächst mit der Entwicklung. Seine Einträge spiegeln Inhalte aus den aktuell dokumentierten Epochen wider.", "The web Codex grows alongside development. Entries reflect content from the currently documented eras.", "Le Codex web évolue avec le développement. Ses entrées reflètent les ères actuellement documentées.", "El Códice web crece con el desarrollo. Sus entradas reflejan las eras documentadas actualmente.", "O Códice web cresce com o desenvolvimento. Suas entradas refletem as eras documentadas atualmente."),
     searchLabel: L("Einträge durchsuchen", "Search entries", "Rechercher des entrées", "Buscar entradas", "Pesquisar entradas"),
     searchPlaceholder: L("Codex durchsuchen …", "Search the Codex…", "Rechercher dans le Codex…", "Buscar en el Códice…", "Pesquisar no Códice…"),
-    toggleHint: L("Codex öffnen oder schließen", "Open or close Codex", "Ouvrir ou fermer le Codex", "Abrir o cerrar el Códice", "Abrir ou fechar o Códice"),
-    escapeHint: L("Schließen", "Close", "Fermer", "Cerrar", "Fechar"),
     noResults: L("Keine passenden Einträge gefunden.", "No matching entries found.", "Aucune entrée correspondante.", "No se encontraron entradas.", "Nenhuma entrada encontrada."),
     oneEntry: L("1 Eintrag", "1 entry", "1 entrée", "1 entrada", "1 entrada"),
     entries: L("{count} Einträge", "{count} entries", "{count} entrées", "{count} entradas", "{count} entradas"),
+    readArticle: L("Artikel lesen", "Read article", "Lire l’article", "Leer artículo", "Ler artigo"),
+    backToLibrary: L("← Zurück zu allen Einträgen", "← Back to all entries", "← Retour à toutes les entrées", "← Volver a todas las entradas", "← Voltar a todas as entradas"),
+    backHome: L("Zurück zu Versaliate", "Back to Versaliate", "Retour à Versaliate", "Volver a Versaliate", "Voltar para Versaliate"),
+    ctaTitle: L("Setze dein Wissen in die Tat um.", "Put the knowledge into practice.", "Mettez vos connaissances en pratique.", "Pon tus conocimientos en práctica.", "Coloque o conhecimento em prática."),
+    ctaCopy: L("Folge Versalox auf itch.io und spiele den aktuellen Prototyp.", "Follow Versalox on itch.io and play the current prototype.", "Suivez Versalox sur itch.io et jouez au prototype actuel.", "Sigue a Versalox en itch.io y juega al prototipo actual.", "Siga Versalox no itch.io e jogue o protótipo atual."),
+    ctaButton: L("Versalox auf itch.io", "Visit Versalox on itch.io", "Versalox sur itch.io", "Versalox en itch.io", "Versalox no itch.io"),
     era: L("Epoche", "Era", "Ère", "Era", "Era"),
     scale: L("Einheitenskala", "Unit scale", "Échelle d’unités", "Escala de unidades", "Escala de unidades"),
     equivalent: L("Entspricht", "Equivalent", "Équivalent", "Equivalente", "Equivalente")
@@ -133,36 +150,50 @@
     }
   ];
 
-  const shell = document.getElementById("web-codex");
-  if (!shell) return;
-
   const categoriesNode = document.getElementById("codex-categories");
   const search = document.getElementById("codex-search");
   const count = document.getElementById("codex-count");
   const list = document.getElementById("codex-entry-list");
-  const detail = document.getElementById("codex-detail");
+  const articleSection = document.getElementById("codex-article");
   const detailIcon = document.getElementById("codex-detail-icon");
   const detailMeta = document.getElementById("codex-detail-meta");
   const detailTitle = document.getElementById("codex-detail-title");
   const detailSummary = document.getElementById("codex-detail-summary");
   const detailBody = document.getElementById("codex-detail-body");
+  const languageSelect = document.getElementById("language-select");
+  if (!categoriesNode || !search || !list || !articleSection) return;
+
   const supportedLanguages = ["de", "en", "fr", "es", "pt-BR"];
   const categoryOrder = ["all", "Creatures", "Flora", "Resources", "Materials", "ToolsAndItems", "StructuresAndStations", "SurvivalAndWorld"];
-  let language = supportedLanguages.includes(document.documentElement.lang) ? document.documentElement.lang : "en";
+  const entryOrder = ["era-one", "hopustree", "wizzlet", "murrak", "rauk", "young-velora", "primordial-plants", "clay-cycle", "stone-hatchet", "packed-clay", "material-units", "material-station", "water-logistics", "settlement-marker", "era-two"];
+  const normalizeLanguage = (value) => {
+    if (!value) return "en";
+    if (value.toLowerCase().startsWith("pt")) return "pt-BR";
+    const short = value.slice(0, 2).toLowerCase();
+    return supportedLanguages.includes(short) ? short : "en";
+  };
+  let language = normalizeLanguage(localStorage.getItem("versaliate-language") || navigator.language);
   let activeCategory = "all";
-  let activeEntry = "material-units";
-  let lastFocus = null;
 
   const t = (value) => value?.[language] ?? value?.en ?? "";
   const normalise = (value) => value.toLocaleLowerCase(language).normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
   function setUiText() {
+    document.documentElement.lang = language;
+    document.title = t(ui.pageTitle);
+    document.querySelector('meta[name="description"]')?.setAttribute("content", t(ui.pageDescription));
     document.querySelectorAll("[data-codex-ui]").forEach((node) => {
       const key = node.dataset.codexUi;
       if (ui[key]) node.textContent = t(ui[key]);
     });
+    document.querySelectorAll("[data-codex-aria]").forEach((node) => {
+      const key = node.dataset.codexAria;
+      if (ui[key]) node.setAttribute("aria-label", t(ui[key]));
+    });
     search.placeholder = t(ui.searchPlaceholder);
     search.setAttribute("aria-label", t(ui.searchLabel));
+    languageSelect.value = language;
+    languageSelect.setAttribute("aria-label", t(ui.languageLabel));
   }
 
   function renderCategories() {
@@ -172,11 +203,10 @@
       button.type = "button";
       button.className = "codex-category";
       button.textContent = t(categoryLabels[category]);
-      button.dataset.category = category;
       button.setAttribute("aria-pressed", String(activeCategory === category));
       button.addEventListener("click", () => {
         activeCategory = category;
-        render();
+        renderLibrary();
       });
       categoriesNode.append(button);
     });
@@ -189,12 +219,15 @@
       if (!query) return true;
       const haystack = [t(entry.title), t(entry.summary), ...(entry.paragraphs ?? []).map(t), ...(entry.facts ?? []).map(t)].join(" ");
       return normalise(haystack).includes(query);
-    });
+    }).sort((a, b) => entryOrder.indexOf(a.id) - entryOrder.indexOf(b.id));
   }
 
-  function renderList(filtered) {
+  function renderLibrary() {
+    renderCategories();
+    const filtered = getFilteredEntries();
     list.replaceChildren();
     count.textContent = filtered.length === 1 ? t(ui.oneEntry) : t(ui.entries).replace("{count}", filtered.length);
+
     if (!filtered.length) {
       const empty = document.createElement("p");
       empty.className = "codex-empty";
@@ -203,39 +236,43 @@
       return;
     }
 
-    if (!filtered.some((entry) => entry.id === activeEntry)) activeEntry = filtered[0].id;
     filtered.forEach((entry) => {
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className = "codex-entry";
-      button.dataset.entry = entry.id;
-      button.setAttribute("role", "option");
-      button.setAttribute("aria-selected", String(activeEntry === entry.id));
+      const card = document.createElement("article");
+      card.className = "codex-card";
+      const imageWrap = document.createElement("div");
+      imageWrap.className = "codex-card-image";
       const image = document.createElement("img");
       image.src = entry.icon;
       image.alt = "";
-      const copy = document.createElement("span");
-      const name = document.createElement("strong");
-      name.textContent = t(entry.title);
-      const meta = document.createElement("small");
+      imageWrap.append(image);
+      const copy = document.createElement("div");
+      copy.className = "codex-card-copy";
+      const meta = document.createElement("p");
+      meta.className = "codex-entry-meta";
       meta.textContent = `${t(ui.era)} ${entry.era} · ${t(categoryLabels[entry.category])}`;
-      copy.append(name, meta);
-      button.append(image, copy);
-      button.addEventListener("click", () => {
-        activeEntry = entry.id;
-        renderList(filtered);
-        renderDetail(entry);
-      });
-      list.append(button);
+      const heading = document.createElement("h3");
+      heading.textContent = t(entry.title);
+      const summary = document.createElement("p");
+      summary.textContent = t(entry.summary);
+      const link = document.createElement("a");
+      link.className = "codex-card-link";
+      link.href = `#${entry.id}`;
+      link.textContent = `${t(ui.readArticle)} →`;
+      copy.append(meta, heading, summary, link);
+      card.append(imageWrap, copy);
+      list.append(card);
     });
   }
 
-  function renderDetail(entry) {
+  function renderArticleFromHash() {
+    const id = decodeURIComponent(window.location.hash.slice(1));
+    const entry = entries.find((candidate) => candidate.id === id);
     if (!entry) {
-      detail.hidden = true;
+      articleSection.hidden = true;
       return;
     }
-    detail.hidden = false;
+
+    articleSection.hidden = false;
     detailIcon.src = entry.icon;
     detailTitle.textContent = t(entry.title);
     detailMeta.textContent = `${t(ui.era)} ${entry.era} · ${t(categoryLabels[entry.category])}`;
@@ -249,7 +286,7 @@
     });
 
     if (entry.unitTable) {
-      const heading = document.createElement("h4");
+      const heading = document.createElement("h3");
       heading.textContent = t(ui.scale);
       const table = document.createElement("div");
       table.className = "codex-unit-table";
@@ -279,69 +316,25 @@
 
   function render() {
     setUiText();
-    renderCategories();
-    const filtered = getFilteredEntries();
-    renderList(filtered);
-    renderDetail(filtered.find((entry) => entry.id === activeEntry));
+    renderLibrary();
+    renderArticleFromHash();
   }
 
-  function openCodex(entryId) {
-    lastFocus = document.activeElement;
-    if (entryId && entries.some((entry) => entry.id === entryId)) {
-      activeEntry = entryId;
-      activeCategory = "all";
-      search.value = "";
-    }
-    shell.hidden = false;
-    document.body.classList.add("codex-open");
-    render();
-    window.requestAnimationFrame(() => search.focus());
-  }
-
-  function closeCodex() {
-    shell.hidden = true;
-    document.body.classList.remove("codex-open");
-    if (lastFocus instanceof HTMLElement) lastFocus.focus();
-  }
-
-  document.querySelectorAll("[data-codex-open]").forEach((button) => {
-    button.addEventListener("click", () => openCodex(button.dataset.codexOpen));
-  });
-  document.querySelectorAll("[data-codex-close]").forEach((button) => button.addEventListener("click", closeCodex));
-  search.addEventListener("input", render);
-
-  document.addEventListener("keydown", (event) => {
-    const target = event.target;
-    const isTyping = target instanceof HTMLElement && (target.matches("input, textarea, select") || target.isContentEditable);
-    if (event.key.toLowerCase() === "j" && !isTyping && !event.ctrlKey && !event.metaKey && !event.altKey) {
-      event.preventDefault();
-      shell.hidden ? openCodex() : closeCodex();
-      return;
-    }
-    if (event.key === "Escape" && !shell.hidden) {
-      event.preventDefault();
-      closeCodex();
-      return;
-    }
-    if (event.key === "Tab" && !shell.hidden) {
-      const focusable = [...shell.querySelectorAll('button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])')].filter((node) => !node.hidden);
-      if (!focusable.length) return;
-      const first = focusable[0];
-      const last = focusable[focusable.length - 1];
-      if (event.shiftKey && document.activeElement === first) {
-        event.preventDefault();
-        last.focus();
-      } else if (!event.shiftKey && document.activeElement === last) {
-        event.preventDefault();
-        first.focus();
-      }
-    }
-  });
-
-  document.addEventListener("versaliate:language", (event) => {
-    language = supportedLanguages.includes(event.detail?.language) ? event.detail.language : "en";
+  search.addEventListener("input", renderLibrary);
+  languageSelect.addEventListener("change", (event) => {
+    language = normalizeLanguage(event.target.value);
+    localStorage.setItem("versaliate-language", language);
     render();
   });
+  window.addEventListener("hashchange", () => {
+    renderArticleFromHash();
+    if (!articleSection.hidden) articleSection.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  const header = document.getElementById("site-header");
+  const updateHeader = () => header?.classList.toggle("is-scrolled", window.scrollY > 18 || document.body.classList.contains("codex-page"));
+  updateHeader();
+  window.addEventListener("scroll", updateHeader, { passive: true });
 
   render();
 })();

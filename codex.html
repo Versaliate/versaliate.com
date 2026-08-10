@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Versalox Codex | Versaliate</title>
+  <meta name="description" content="Explore the creatures, flora, materials, tools and systems of Versalox in the official web Codex." />
+  <meta name="theme-color" content="#111713" />
+  <meta name="color-scheme" content="dark" />
+  <link rel="canonical" href="https://www.versaliate.com/codex.html" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Versaliate" />
+  <meta property="og:title" content="Versalox Codex | Versaliate" />
+  <meta property="og:description" content="Discover the world, creatures and systems of Versalox." />
+  <meta property="og:url" content="https://www.versaliate.com/codex.html" />
+  <meta property="og:image" content="https://www.versaliate.com/assets/og-versaliate.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+</head>
+<body class="codex-page">
+  <a class="skip-link" href="#codex-library" data-codex-ui="skip">Skip to content</a>
+
+  <header class="site-header is-scrolled" id="site-header">
+    <a class="wordmark" href="index.html" aria-label="Versaliate home">VERSALIATE</a>
+    <nav class="primary-nav" aria-label="Primary navigation" data-codex-aria="navAria">
+      <a href="index.html#versalox" data-codex-ui="navVersalox">Versalox</a>
+      <a href="index.html#prototype" data-codex-ui="navPrototype">Prototype 0.0.2</a>
+      <a href="index.html#games" data-codex-ui="navGames">Games</a>
+      <a class="is-active" href="codex.html" aria-current="page" data-codex-ui="navCodex">Codex</a>
+    </nav>
+    <label class="language-picker">
+      <span class="sr-only" data-codex-ui="languageLabel">Language</span>
+      <select id="language-select" aria-label="Language">
+        <option value="de">Deutsch</option>
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+        <option value="pt-BR">Português (Brasil)</option>
+      </select>
+    </label>
+  </header>
+
+  <main>
+    <section class="codex-masthead">
+      <div class="codex-masthead-art" aria-hidden="true"></div>
+      <div class="shell codex-masthead-content">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="index.html">Versaliate</a><span>/</span><span>Versalox</span><span>/</span><span data-codex-ui="title">Codex</span>
+        </nav>
+        <p class="eyebrow" data-codex-ui="eyebrow">Explore the world of Versalox</p>
+        <h1 data-codex-ui="headline">Knowledge grows with every era.</h1>
+        <p data-codex-ui="intro">Browse creatures, flora, resources, materials and the systems that shape survival in Versalox.</p>
+      </div>
+    </section>
+
+    <section class="codex-library section" id="codex-library" aria-labelledby="library-title">
+      <div class="shell">
+        <div class="codex-library-heading">
+          <div>
+            <p class="kicker" data-codex-ui="libraryKicker">Knowledge base</p>
+            <h2 id="library-title" data-codex-ui="libraryTitle">Browse the Codex</h2>
+          </div>
+          <p data-codex-ui="libraryCopy">The web Codex grows alongside development. Entries reflect content from the currently documented eras.</p>
+        </div>
+
+        <div class="codex-tools">
+          <label class="site-search" for="codex-search">
+            <span class="sr-only" data-codex-ui="searchLabel">Search entries</span>
+            <span aria-hidden="true">⌕</span>
+            <input id="codex-search" type="search" autocomplete="off" placeholder="Search the Codex…" />
+          </label>
+          <p class="codex-count" id="codex-count"></p>
+        </div>
+
+        <nav class="codex-categories" id="codex-categories" aria-label="Codex categories"></nav>
+        <div class="codex-card-grid" id="codex-entry-list"></div>
+      </div>
+    </section>
+
+    <section class="codex-article-section section" id="codex-article" hidden>
+      <article class="shell codex-article-page">
+        <a class="codex-back-link" href="#codex-library" data-codex-ui="backToLibrary">← Back to all entries</a>
+        <div class="codex-article-hero">
+          <div class="codex-article-icon"><img id="codex-detail-icon" alt="" /></div>
+          <div>
+            <p class="codex-entry-meta" id="codex-detail-meta"></p>
+            <h2 id="codex-detail-title"></h2>
+            <p class="codex-lead" id="codex-detail-summary"></p>
+          </div>
+        </div>
+        <div class="codex-prose" id="codex-detail-body"></div>
+      </article>
+    </section>
+
+    <section class="codex-cta section">
+      <div class="shell codex-cta-inner">
+        <div>
+          <p class="kicker">VERSALOX</p>
+          <h2 data-codex-ui="ctaTitle">Put the knowledge into practice.</h2>
+          <p data-codex-ui="ctaCopy">Follow Versalox on itch.io and play the current prototype.</p>
+        </div>
+        <a class="button button-primary" href="https://versaliate.itch.io/versalox" target="_blank" rel="noopener" data-codex-ui="ctaButton">Visit Versalox on itch.io</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <span>© 2026 Versaliate</span>
+      <a href="index.html" data-codex-ui="backHome">Back to Versaliate</a>
+      <a href="https://versaliate.itch.io/" target="_blank" rel="noopener">itch.io ↗</a>
+    </div>
+  </footer>
+
+  <script src="codex.js" defer></script>
+</body>
+</html>
