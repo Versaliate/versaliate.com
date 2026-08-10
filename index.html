@@ -49,16 +49,22 @@
       <a href="#games" data-i18n="navGames">Games</a>
       <a href="#about" data-i18n="navAbout">About</a>
     </nav>
-    <label class="language-picker">
-      <span class="sr-only" data-i18n="languageLabel">Language</span>
-      <select id="language-select" aria-label="Language">
-        <option value="de">Deutsch</option>
-        <option value="en">English</option>
-        <option value="fr">Français</option>
-        <option value="es">Español</option>
-        <option value="pt-BR">Português (Brasil)</option>
-      </select>
-    </label>
+    <div class="header-actions">
+      <button class="codex-launch" type="button" data-codex-open="material-units">
+        <span data-i18n="navCodex">Codex</span>
+        <kbd>J</kbd>
+      </button>
+      <label class="language-picker">
+        <span class="sr-only" data-i18n="languageLabel">Language</span>
+        <select id="language-select" aria-label="Language">
+          <option value="de">Deutsch</option>
+          <option value="en">English</option>
+          <option value="fr">Français</option>
+          <option value="es">Español</option>
+          <option value="pt-BR">Português (Brasil)</option>
+        </select>
+      </label>
+    </div>
   </header>
 
   <main id="main">
@@ -120,6 +126,43 @@
           <h3 data-i18n="featureWorldTitle">Change the world</h3>
           <p data-i18n="featureWorldCopy">Explore a generated hybrid-voxel landscape, shape terrain and leave a settlement behind.</p>
         </article>
+      </div>
+    </section>
+
+    <section class="section material-system" id="materials" aria-labelledby="materials-title">
+      <div class="shell material-layout">
+        <div class="material-copy reveal">
+          <p class="kicker" data-i18n="materialKicker">Versalox material system</p>
+          <h2 id="materials-title" data-i18n="materialTitle">One material. Five exact quantities.</h2>
+          <p data-i18n="materialCopy">Era 2 introduces a native material inventory. Materials keep their identity and base amount while the interface groups them into readable portions.</p>
+          <div class="material-tags" aria-label="Era 2 materials">
+            <span>WetClay</span>
+            <span>DryClay</span>
+            <span>FiredClay</span>
+            <span>PackedClay</span>
+          </div>
+          <button class="button button-primary" type="button" data-codex-open="material-units" data-i18n="openMaterialCodex">Open material entry</button>
+        </div>
+
+        <div class="material-scale-panel reveal" aria-label="V, Vo, Ven, Vado and Versi conversion scale" data-i18n-aria="materialScaleAria">
+          <p class="scale-label" data-i18n="materialScaleLabel">Each step is five times larger</p>
+          <div class="unit-scale">
+            <div class="unit-step"><strong>V</strong><span>1 V</span></div>
+            <span class="unit-arrow" aria-hidden="true">×5</span>
+            <div class="unit-step"><strong>Vo</strong><span>5 V</span></div>
+            <span class="unit-arrow" aria-hidden="true">×5</span>
+            <div class="unit-step"><strong>Ven</strong><span>25 V</span></div>
+            <span class="unit-arrow" aria-hidden="true">×5</span>
+            <div class="unit-step"><strong>Vado</strong><span>125 V</span></div>
+            <span class="unit-arrow" aria-hidden="true">×5</span>
+            <div class="unit-step unit-step-largest"><strong>Versi</strong><span>625 V</span></div>
+          </div>
+          <div class="conversion-band">
+            <strong data-i18n="materialConversionTitle">Lossless conversion</strong>
+            <span>1 Versi = 5 Vado = 25 Ven = 125 Vo = 625 V</span>
+          </div>
+          <p class="volume-note" data-i18n="materialVolume">In the current volume model, 1 Versi equals 0.125 m³. The Material Station converts Dirt, FiredClay and PackedClay between all five portions without loss.</p>
+        </div>
       </div>
     </section>
 
@@ -222,6 +265,52 @@
     </div>
   </footer>
 
+  <div class="codex-shell" id="web-codex" hidden>
+    <button class="codex-backdrop" type="button" data-codex-close aria-label="Close Codex"></button>
+    <section class="codex-panel" role="dialog" aria-modal="true" aria-labelledby="codex-title">
+      <header class="codex-header">
+        <div>
+          <p class="codex-brand">VERSALOX · WEB CODEX</p>
+          <h2 id="codex-title" data-codex-ui="title">Codex</h2>
+          <p data-codex-ui="subtitle">Knowledge from the currently playable eras.</p>
+        </div>
+        <button class="codex-close" type="button" data-codex-close>
+          <span data-codex-ui="close">Close</span>
+          <kbd>Esc</kbd>
+        </button>
+      </header>
+
+      <nav class="codex-categories" id="codex-categories" aria-label="Codex categories"></nav>
+
+      <div class="codex-content">
+        <aside class="codex-index">
+          <label class="codex-search-label" for="codex-search" data-codex-ui="searchLabel">Search entries</label>
+          <input class="codex-search" id="codex-search" type="search" autocomplete="off" data-codex-placeholder="searchPlaceholder" placeholder="Search the Codex…" />
+          <p class="codex-count" id="codex-count"></p>
+          <div class="codex-entry-list" id="codex-entry-list" role="listbox" aria-label="Codex entries"></div>
+        </aside>
+
+        <article class="codex-detail" id="codex-detail" tabindex="0">
+          <div class="codex-detail-heading">
+            <div class="codex-icon-frame"><img id="codex-detail-icon" alt="" /></div>
+            <div>
+              <p class="codex-entry-meta" id="codex-detail-meta"></p>
+              <h3 id="codex-detail-title"></h3>
+            </div>
+          </div>
+          <p class="codex-lead" id="codex-detail-summary"></p>
+          <div class="codex-article" id="codex-detail-body"></div>
+        </article>
+      </div>
+
+      <footer class="codex-footer">
+        <span><kbd>J</kbd> <span data-codex-ui="toggleHint">Open or close Codex</span></span>
+        <span><kbd>Esc</kbd> <span data-codex-ui="escapeHint">Close</span></span>
+      </footer>
+    </section>
+  </div>
+
   <script src="script.js" defer></script>
+  <script src="codex.js" defer></script>
 </body>
 </html>

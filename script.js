@@ -56,7 +56,16 @@ const translations = {
     aboutTitle: "Independent worlds, built in public.",
     aboutCopy: "Versaliate is an independent game label focused on systems-driven worlds, meaningful progression and playable iteration. Each public prototype is a real step forward — and an invitation to follow the development.",
     visitItch: "Visit Versaliate on itch.io",
-    footerLine: "Survive. Build. Progress."
+    footerLine: "Survive. Build. Progress.",
+    navCodex: "Codex",
+    materialKicker: "Versalox material system",
+    materialTitle: "One material. Five exact quantities.",
+    materialCopy: "Era 2 introduces a native material inventory. Materials keep their identity and base amount while the interface groups them into readable portions.",
+    openMaterialCodex: "Open material entry",
+    materialScaleAria: "Conversion scale for V, Vo, Ven, Vado and Versi",
+    materialScaleLabel: "Each step is five times larger",
+    materialConversionTitle: "Lossless conversion",
+    materialVolume: "In the current volume model, 1 Versi equals 0.125 m³. The Material Station converts Dirt, FiredClay and PackedClay between all five portions without loss."
   },
   de: {
     title: "Versaliate | Unabhängige Spiele — Versalox",
@@ -115,7 +124,16 @@ const translations = {
     aboutTitle: "Unabhängige Welten, öffentlich entwickelt.",
     aboutCopy: "Versaliate ist ein unabhängiges Spielelabel mit Fokus auf systemische Welten, bedeutsamen Fortschritt und spielbare Iterationen. Jeder öffentliche Prototyp ist ein echter Schritt nach vorn — und eine Einladung, die Entwicklung zu begleiten.",
     visitItch: "Versaliate auf itch.io besuchen",
-    footerLine: "Überlebe. Baue. Schreite voran."
+    footerLine: "Überlebe. Baue. Schreite voran.",
+    navCodex: "Kodex",
+    materialKicker: "Versalox-Materialsystem",
+    materialTitle: "Ein Material. Fünf exakte Mengen.",
+    materialCopy: "Era 2 führt ein natives Materialinventar ein. Materialien behalten ihre Identität und Grundmenge, während die Oberfläche sie in gut lesbare Portionen gliedert.",
+    openMaterialCodex: "Materialeintrag öffnen",
+    materialScaleAria: "Umrechnungsskala für V, Vo, Ven, Vado und Versi",
+    materialScaleLabel: "Jede Stufe ist fünfmal größer",
+    materialConversionTitle: "Verlustfreie Umformung",
+    materialVolume: "Im aktuellen Volumenmodell entspricht 1 Versi genau 0,125 m³. Die Materialstation formt Dirt, FiredClay und PackedClay verlustfrei zwischen allen fünf Portionen um."
   },
   fr: {
     title: "Versaliate | Jeux indépendants — Versalox",
@@ -174,7 +192,16 @@ const translations = {
     aboutTitle: "Des mondes indépendants, développés au grand jour.",
     aboutCopy: "Versaliate est un label de jeux indépendant axé sur les mondes systémiques, une progression significative et des itérations jouables. Chaque prototype public est une véritable avancée et une invitation à suivre le développement.",
     visitItch: "Voir Versaliate sur itch.io",
-    footerLine: "Survivez. Construisez. Progressez."
+    footerLine: "Survivez. Construisez. Progressez.",
+    navCodex: "Codex",
+    materialKicker: "Système de matériaux de Versalox",
+    materialTitle: "Un matériau. Cinq quantités exactes.",
+    materialCopy: "L’Ère 2 introduit un inventaire de matériaux natif. Les matériaux conservent leur identité et leur quantité de base tandis que l’interface les regroupe en portions lisibles.",
+    openMaterialCodex: "Ouvrir l’entrée des matériaux",
+    materialScaleAria: "Échelle de conversion de V, Vo, Ven, Vado et Versi",
+    materialScaleLabel: "Chaque niveau est cinq fois plus grand",
+    materialConversionTitle: "Conversion sans perte",
+    materialVolume: "Dans le modèle de volume actuel, 1 Versi équivaut à 0,125 m³. La Station de matériaux convertit Dirt, FiredClay et PackedClay entre les cinq portions sans perte."
   },
   es: {
     title: "Versaliate | Juegos independientes — Versalox",
@@ -233,7 +260,16 @@ const translations = {
     aboutTitle: "Mundos independientes, creados en público.",
     aboutCopy: "Versaliate es un sello de juegos independiente centrado en mundos sistémicos, progreso significativo e iteraciones jugables. Cada prototipo público es un verdadero paso adelante y una invitación a seguir el desarrollo.",
     visitItch: "Visitar Versaliate en itch.io",
-    footerLine: "Sobrevive. Construye. Progresa."
+    footerLine: "Sobrevive. Construye. Progresa.",
+    navCodex: "Códice",
+    materialKicker: "Sistema de materiales de Versalox",
+    materialTitle: "Un material. Cinco cantidades exactas.",
+    materialCopy: "La Era 2 introduce un inventario de materiales nativo. Los materiales conservan su identidad y cantidad base mientras la interfaz los agrupa en porciones legibles.",
+    openMaterialCodex: "Abrir entrada de materiales",
+    materialScaleAria: "Escala de conversión de V, Vo, Ven, Vado y Versi",
+    materialScaleLabel: "Cada nivel es cinco veces mayor",
+    materialConversionTitle: "Conversión sin pérdidas",
+    materialVolume: "En el modelo de volumen actual, 1 Versi equivale a 0,125 m³. La Estación de materiales convierte Dirt, FiredClay y PackedClay entre las cinco porciones sin pérdidas."
   },
   "pt-BR": {
     title: "Versaliate | Jogos independentes — Versalox",
@@ -292,7 +328,16 @@ const translations = {
     aboutTitle: "Mundos independentes, criados em público.",
     aboutCopy: "Versaliate é um selo de jogos independente focado em mundos sistêmicos, progressão significativa e iterações jogáveis. Cada protótipo público é um passo real adiante e um convite para acompanhar o desenvolvimento.",
     visitItch: "Visitar a Versaliate no itch.io",
-    footerLine: "Sobreviva. Construa. Avance."
+    footerLine: "Sobreviva. Construa. Avance.",
+    navCodex: "Códice",
+    materialKicker: "Sistema de materiais de Versalox",
+    materialTitle: "Um material. Cinco quantidades exatas.",
+    materialCopy: "A Era 2 introduz um inventário de materiais nativo. Os materiais mantêm sua identidade e quantidade-base enquanto a interface os agrupa em porções fáceis de ler.",
+    openMaterialCodex: "Abrir entrada de materiais",
+    materialScaleAria: "Escala de conversão de V, Vo, Ven, Vado e Versi",
+    materialScaleLabel: "Cada nível é cinco vezes maior",
+    materialConversionTitle: "Conversão sem perdas",
+    materialVolume: "No modelo de volume atual, 1 Versi equivale a 0,125 m³. A Estação de materiais converte Dirt, FiredClay e PackedClay entre as cinco porções sem perdas."
   }
 };
 
@@ -328,6 +373,7 @@ function applyLanguage(language) {
 
   languageSelect.setAttribute("aria-label", dictionary.languageLabel);
   localStorage.setItem("versaliate-language", selected);
+  document.dispatchEvent(new CustomEvent("versaliate:language", { detail: { language: selected } }));
 }
 
 const savedLanguage = localStorage.getItem("versaliate-language");
