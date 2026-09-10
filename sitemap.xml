@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.versaliate.com/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/" />
   <xhtml:link rel="alternate" hreflang="es" href="https://www.versaliate.com/es/" />
   <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.versaliate.com/pt-br/" />
@@ -12,9 +12,9 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/codex.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex.html" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex.html" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/codex.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex.html" />
   <xhtml:link rel="alternate" hreflang="es" href="https://www.versaliate.com/es/codex.html" />
   <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.versaliate.com/pt-br/codex.html" />
@@ -22,9 +22,9 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/de/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/" />
   <xhtml:link rel="alternate" hreflang="es" href="https://www.versaliate.com/es/" />
   <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.versaliate.com/pt-br/" />
@@ -32,9 +32,9 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/de/codex.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex.html" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex.html" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/codex.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex.html" />
   <xhtml:link rel="alternate" hreflang="es" href="https://www.versaliate.com/es/codex.html" />
   <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.versaliate.com/pt-br/codex.html" />
@@ -191,28 +191,8 @@
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.versaliate.com/en/codex-era-two.html" />
   </url>
   <url>
-    <loc>https://www.versaliate.com/en/</loc>
-    <lastmod>2026-08-10</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/" />
-  <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/" />
-  <xhtml:link rel="alternate" hreflang="es" href="https://www.versaliate.com/es/" />
-  <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.versaliate.com/pt-br/" />
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.versaliate.com/" />
-  </url>
-  <url>
-    <loc>https://www.versaliate.com/en/codex.html</loc>
-    <lastmod>2026-08-10</lastmod>
-  <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex.html" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex.html" />
-  <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex.html" />
-  <xhtml:link rel="alternate" hreflang="es" href="https://www.versaliate.com/es/codex.html" />
-  <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.versaliate.com/pt-br/codex.html" />
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.versaliate.com/codex.html" />
-  </url>
-  <url>
     <loc>https://www.versaliate.com/en/codex-era-one.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-era-one.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-era-one.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-era-one.html" />
@@ -222,7 +202,7 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/en/codex-hopustree.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-hopustree.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-hopustree.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-hopustree.html" />
@@ -232,7 +212,7 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/en/codex-wizzlet.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-wizzlet.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-wizzlet.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-wizzlet.html" />
@@ -242,7 +222,7 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/en/codex-murrak.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-murrak.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-murrak.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-murrak.html" />
@@ -252,7 +232,7 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/en/codex-rauk.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-rauk.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-rauk.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-rauk.html" />
@@ -262,7 +242,7 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/en/codex-young-velora.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-young-velora.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-young-velora.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-young-velora.html" />
@@ -272,7 +252,7 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/en/codex-primordial-plants.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-primordial-plants.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-primordial-plants.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-primordial-plants.html" />
@@ -282,7 +262,7 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/en/codex-clay-cycle.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-clay-cycle.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-clay-cycle.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-clay-cycle.html" />
@@ -292,7 +272,7 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/en/codex-stone-hatchet.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-stone-hatchet.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-stone-hatchet.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-stone-hatchet.html" />
@@ -302,7 +282,7 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/en/codex-packed-clay.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-packed-clay.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-packed-clay.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-packed-clay.html" />
@@ -312,7 +292,7 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/en/codex-material-units.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-material-units.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-material-units.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-material-units.html" />
@@ -322,7 +302,7 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/en/codex-material-station.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-material-station.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-material-station.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-material-station.html" />
@@ -332,7 +312,7 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/en/codex-water-logistics.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-water-logistics.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-water-logistics.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-water-logistics.html" />
@@ -342,7 +322,7 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/en/codex-settlement-marker.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-settlement-marker.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-settlement-marker.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-settlement-marker.html" />
@@ -352,7 +332,7 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/en/codex-era-two.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex-era-two.html" />
   <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex-era-two.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex-era-two.html" />
@@ -362,9 +342,9 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/fr/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/" />
   <xhtml:link rel="alternate" hreflang="es" href="https://www.versaliate.com/es/" />
   <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.versaliate.com/pt-br/" />
@@ -372,9 +352,9 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/fr/codex.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex.html" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex.html" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/codex.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex.html" />
   <xhtml:link rel="alternate" hreflang="es" href="https://www.versaliate.com/es/codex.html" />
   <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.versaliate.com/pt-br/codex.html" />
@@ -532,9 +512,9 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/es/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/" />
   <xhtml:link rel="alternate" hreflang="es" href="https://www.versaliate.com/es/" />
   <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.versaliate.com/pt-br/" />
@@ -542,9 +522,9 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/es/codex.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex.html" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex.html" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/codex.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex.html" />
   <xhtml:link rel="alternate" hreflang="es" href="https://www.versaliate.com/es/codex.html" />
   <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.versaliate.com/pt-br/codex.html" />
@@ -702,9 +682,9 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/pt-br/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/" />
   <xhtml:link rel="alternate" hreflang="es" href="https://www.versaliate.com/es/" />
   <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.versaliate.com/pt-br/" />
@@ -712,9 +692,9 @@
   </url>
   <url>
     <loc>https://www.versaliate.com/pt-br/codex.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-10</lastmod>
   <xhtml:link rel="alternate" hreflang="de" href="https://www.versaliate.com/de/codex.html" />
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/en/codex.html" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.versaliate.com/codex.html" />
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.versaliate.com/fr/codex.html" />
   <xhtml:link rel="alternate" hreflang="es" href="https://www.versaliate.com/es/codex.html" />
   <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.versaliate.com/pt-br/codex.html" />
