@@ -2,7 +2,15 @@
 
 Official website for Versaliate and its games, with Versalox as the current main project.
 
-The site is a dependency-free static GitHub Pages project. It supports German, English, French, Spanish and Brazilian Portuguese, follows the visitor's browser language and remembers a manual language selection locally.
+The site is a dependency-free static GitHub Pages project. It supports German, English, French, Spanish and Brazilian Portuguese through dedicated language URLs and a manual language selector.
+
+## Landing-page content and presentation
+
+The public release is Prototype 0.0.2, covering Eras 1 and 2. Era 3 is in development; the 17-era framework is a long-term vision. Keep this distinction in all five translations when updating release copy. The landing pages introduce Versaliate as a solo developer based in Switzerland.
+
+Landing-page text is rendered directly in each `index.html`, including the English alias. They load `language-nav.js` once for the language selector. The legacy `script.js` translation/animation bundle is not loaded by these static pages. Keep content visible by default in CSS, so a missing script cannot hide entire sections. The header background also works without JavaScript.
+
+When changing the layout, check desktop and mobile views, language navigation, content visibility and the download button in addition to the automated SEO checks below.
 
 ## Publishing
 
