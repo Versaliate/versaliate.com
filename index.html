@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="/assets/favicon.png" />
   <link rel="preload" href="/assets/gallery-settlement.webp" as="image" type="image/webp" />
   <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/development.css" />
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Versaliate" />
@@ -44,6 +45,7 @@
     "applicationCategory": "Game"
   }
   </script>
+  <link rel="stylesheet" href="/paper.css" />
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
@@ -53,7 +55,7 @@
     <nav class="primary-nav" aria-label="Primary navigation" data-i18n-aria="navAria">
       <a href="#versalox" data-i18n="navVersalox">Versalox</a>
       <a href="#prototype" data-i18n="navPrototype">Prototype 0.0.2</a>
-      <a href="#games" data-i18n="navGames">Games</a>
+      <a href="#development">Development</a>
       <a href="#about" data-i18n="navAbout">About</a>
     </nav>
     <div class="header-actions">
@@ -73,16 +75,16 @@
         <div class="hero-copy-block">
         <p class="eyebrow" data-i18n="heroEyebrow">Solo-developed in Switzerland</p>
         <img class="versalox-logo" src="/assets/versalox-logo.png" alt="Versalox" width="2048" height="544" />
-        <h1 id="hero-title" data-i18n="heroTitle">From your first camp to your own settlement.</h1>
-        <p class="hero-copy" data-i18n="heroCopy">Explore a world you can reshape, process raw materials and build your supply chains. Play Eras 1 and 2 in the current survival and crafting prototype.</p>
+        <h1 id="hero-title" data-i18n="heroTitle">From your first camp to your own production network.</h1>
+        <p class="hero-copy" data-i18n="heroCopy">Explore a voxel world you can reshape, process resources and build your settlement. Versalox keeps growing with machines, energy networks and routines you can program yourself.</p>
         <p class="hero-specs">Windows · Single-player · 5 languages</p>
         <div class="hero-actions">
           <a class="button button-primary" href="https://versaliate.itch.io/versalox" target="_blank" rel="noopener" data-i18n="playPrototype">Play Prototype 0.0.2</a>
           <a class="button button-ghost" href="https://versaliate.itch.io/" target="_blank" rel="noopener" data-i18n="followItch">Follow on itch.io</a>
         </div>
-        <a class="status-strip" href="#prototype">
+        <a class="status-strip" href="#development">
           <span class="status-dot" aria-hidden="true"></span>
-          <span data-i18n="heroStatus">Eras 1 &amp; 2 available · Era 3 in development</span>
+          <span data-i18n="heroStatus">0.0.2: Eras 1 &amp; 2 available · Explore development</span>
           <span aria-hidden="true">↓</span>
         </a>
         </div>
@@ -98,12 +100,12 @@
       <div class="shell intro-grid">
         <div class="section-heading reveal">
           <p class="kicker" data-i18n="introKicker">Versalox</p>
-          <h2 id="intro-title" data-i18n="introTitle">Gather. Process. Build.</h2>
+          <h2 id="intro-title" data-i18n="introTitle">Survival is the beginning.</h2>
         </div>
         <div class="intro-copy reveal">
-          <p data-i18n="introCopy">Start with food, water and a place to sleep. Turn wood and clay into useful materials, connect your workstations and grow a temporary camp into a working settlement.</p>
+          <p data-i18n="introCopy">Start with food, water and a place to sleep. Wood, clay and your first workstations grow into a settlement. In the current development build, the path continues into metalworking, energy and controllable machinery.</p>
           <div class="fact-row" aria-label="Versalox facts" data-i18n-aria="factsAria">
-            <div><strong>2</strong><span data-i18n="factEras">playable eras</span></div>
+            <div><strong>2</strong><span data-i18n="factEras">eras in the public download</span></div>
             <div><strong>5</strong><span data-i18n="factLanguages">supported languages</span></div>
             <div><strong>1</strong><span data-i18n="factDeveloper">independent developer</span></div>
           </div>
@@ -153,14 +155,19 @@
           <div class="development-note">
             <span class="status-dot" aria-hidden="true"></span>
             <div>
-              <strong data-i18n="activeDevelopment">Next: Era 3</strong>
-              <span data-i18n="releaseNote">Era 3 is currently being implemented. It is not included in the public 0.0.2 prototype; there is no announced release date.</span>
+              <strong data-i18n="activeDevelopment">In the project: energy, Versux &amp; Vorysken</strong>
+              <span data-i18n="releaseNote">Development now extends beyond Era 2. The new machinery, control and storage systems are not yet included in the public 0.0.2 download.</span>
             </div>
           </div>
-          <p class="vision-note">Long-term vision: a framework of 17 eras. The public prototype currently covers Eras 1 and 2.</p>
+          <p class="vision-note">From your first tools to connected production: discover what is already being prototyped and where Versalox is heading. <a href="/development.html">Explore development →</a></p>
         </div>
       </div>
     </section>
+
+    <section class="section development-section" id="development" aria-labelledby="development-title"><div class="shell"><div class="development-heading"><div><p class="kicker">Versalox keeps growing</p><h2 id="development-title">Your settlement learns to work.</h2></div><p>Power machines, control processes and organize supplies: a look at the new systems in development.</p></div><p class="development-context">Later eras and new systems are being prototyped in the project. Scope, visuals and balance keep evolving; these features are not part of 0.0.2 yet.</p><div class="development-card-grid"><article class="development-card"><span class="feature-number">01</span><h3>Energy &amp; machines</h3><p>Charcoal becomes heat, heat becomes motion, and motion becomes electricity. Physical connections link your machines.</p><a class="codex-system-link" href="/en/codex-energy-networks.html">Read article →</a></article>
+<article class="development-card"><span class="feature-number">02</span><h3>Versux · Your routines</h3><p>Write programs on a console and control devices over data connections. Switching a lamp on after dark is an early use case.</p><a class="codex-system-link" href="/en/codex-versux.html">Read article →</a></article>
+<article class="development-card"><span class="feature-number">03</span><h3>Tablet · Access on the move</h3><p>Connect wirelessly to a suitable console. Versux, Devices and Storage apps bring your network to the tablet screen.</p><a class="codex-system-link" href="/en/codex-versux-tablet.html">Read article →</a></article>
+<article class="development-card"><span class="feature-number">04</span><h3>Vorysken · Connect your supplies</h3><p>A hub manages modular storage. Transport lines carry resources from production into your inventory network.</p><a class="codex-system-link" href="/en/codex-vorysken.html">Read article →</a></article></div><div class="development-actions"><a class="button button-primary" href="/development.html">Explore development →</a><span>Based on the project state of 30 September 2026</span></div></div></section>
 
     <section class="section gallery-section" aria-labelledby="gallery-title">
       <div class="shell section-heading gallery-heading reveal">
@@ -224,6 +231,7 @@
         <a class="button button-primary" href="https://versaliate.itch.io/" target="_blank" rel="noopener" data-i18n="visitItch">Visit Versaliate on itch.io</a>
       </div>
     </section>
+    <section class="paper-section section" id="system-paper" aria-labelledby="paper-title"><div class="shell"><div class="paper-panel"><div><p class="kicker">The Versalox paper</p><h2 id="paper-title">How the game and its systems fit together.</h2><p>From 0.5-metre blocks and textures to materials, free placement, Versux and Vorysken. Includes diagrams, examples and the registered content catalog.</p><p class="paper-meta">52 pages · German · Project snapshot: 11 October 2026</p><p class="paper-note">Implemented prototype systems and plans are identified. The public download remains 0.0.2.</p></div><div class="paper-actions"><a class="button button-primary" href="/assets/papers/versalox-spiel-und-systemreferenz.pdf" type="application/pdf" hreflang="de">Read the paper (German PDF) →</a><a class="paper-download" href="/assets/papers/versalox-spiel-und-systemreferenz.pdf" download="Versalox-Spiel-und-Systemreferenz.pdf" type="application/pdf" hreflang="de">Download PDF ↓</a></div></div></div></section>
   </main>
 
   <footer class="site-footer">

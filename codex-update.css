@@ -1,0 +1,19 @@
+.codex-version-note { margin: 30px 0; padding: 20px 24px; border-left: 3px solid var(--ember); background: rgba(231,154,82,0.06); color: var(--sand-soft); }
+.codex-version-note strong { display: block; margin-bottom: 8px; color: var(--ember); }
+.codex-version-note p { margin: 0; max-width: 850px; }
+.codex-version-note a { display: inline-block; margin-top: 14px; color: var(--leaf); text-underline-offset: 4px; }
+.codex-release-filters { display: flex; gap: 8px; flex-wrap: wrap; margin-block: 28px 22px; }
+.codex-release-badge { align-self: flex-start; margin-bottom: 16px; padding: 4px 8px; border: 1px solid rgba(231,154,82,0.4); color: var(--ember); font-size: 0.72rem; font-weight: 650; }
+.codex-release-public { border-color: rgba(134,166,101,0.4); color: var(--leaf); }
+.codex-article-development .codex-prose h2 { margin: 38px 0 16px; font-size: 1.7rem; letter-spacing: -0.025em; }
+.codex-article-development .codex-facts { display: block; padding-left: 24px; margin-block: 28px; }
+.codex-article-development .codex-facts li { margin-block: 8px; }
+.codex-code { max-width: 100%; padding: 20px; border: 1px solid var(--line); background: var(--ink); overflow-x: auto; color: var(--sand); font-size: 0.9rem; line-height: 1.7; }
+.codex-system-link { display: inline-block; margin-top: 18px; color: var(--leaf); font-weight: 650; font-size: 0.85rem; text-underline-offset: 4px; }
+.codex-version-note a:focus-visible,
+.codex-release-filters button:focus-visible { outline: 2px solid var(--sand); outline-offset: 4px; }
+@media (max-width: 680px) {
+ .codex-version-note { padding: 18px; }
+ .codex-article-development .codex-article-hero h1 { font-size: clamp(2rem,8vw,3rem); overflow-wrap: anywhere; }
+ .codex-article-development .related-entry h3 { overflow-wrap: anywhere; }
+}

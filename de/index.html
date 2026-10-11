@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="/assets/favicon.png" />
   <link rel="preload" href="/assets/gallery-settlement.webp" as="image" type="image/webp" />
   <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/development.css" />
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Versaliate" />
@@ -40,10 +41,11 @@
     "author": { "@type": "Organization", "name": "Versaliate", "url": "https://www.versaliate.com/" },
     "gamePlatform": "Windows",
     "genre": ["Survival", "Crafting", "Building", "Exploration"],
-    "inLanguage": "en",
+    "inLanguage": "de",
     "applicationCategory": "Game"
   }
   </script>
+  <link rel="stylesheet" href="/paper.css" />
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">Zum Inhalt springen</a>
@@ -53,7 +55,7 @@
     <nav class="primary-nav" aria-label="Hauptnavigation" data-i18n-aria="navAria">
       <a href="#versalox" data-i18n="navVersalox">Versalox</a>
       <a href="#prototype" data-i18n="navPrototype">Prototype 0.0.2</a>
-      <a href="#games" data-i18n="navGames">Spiele</a>
+      <a href="#development">Entwicklung</a>
       <a href="#about" data-i18n="navAbout">Über Versaliate</a>
     </nav>
     <div class="header-actions">
@@ -73,16 +75,16 @@
         <div class="hero-copy-block">
         <p class="eyebrow" data-i18n="heroEyebrow">Solo entwickelt in der Schweiz</p>
         <img class="versalox-logo" src="/assets/versalox-logo.png" alt="Versalox" width="2048" height="544" />
-        <h1 id="hero-title" data-i18n="heroTitle">Vom ersten Lager zur eigenen Siedlung.</h1>
-        <p class="hero-copy" data-i18n="heroCopy">Erkunde eine veränderbare Welt, verarbeite Rohstoffe und baue deine Versorgung auf. Spiele Era 1 und 2 im aktuellen Survival- und Crafting-Prototyp.</p>
+        <h1 id="hero-title" data-i18n="heroTitle">Vom ersten Lager zum eigenen Produktionsnetz.</h1>
+        <p class="hero-copy" data-i18n="heroCopy">Erkunde eine veränderbare Voxelwelt, verarbeite Rohstoffe und baue deine Siedlung auf. Versalox wächst weiter: mit Maschinen, Energienetzen und selbst programmierten Abläufen.</p>
         <p class="hero-specs">Windows · Einzelspieler · 5 Sprachen</p>
         <div class="hero-actions">
           <a class="button button-primary" href="https://versaliate.itch.io/versalox" target="_blank" rel="noopener" data-i18n="playPrototype">Prototype 0.0.2 spielen</a>
           <a class="button button-ghost" href="https://versaliate.itch.io/" target="_blank" rel="noopener" data-i18n="followItch">Auf itch.io folgen</a>
         </div>
-        <a class="status-strip" href="#prototype">
+        <a class="status-strip" href="#development">
           <span class="status-dot" aria-hidden="true"></span>
-          <span data-i18n="heroStatus">Era 1 &amp; 2 spielbar · Era 3 in Entwicklung</span>
+          <span data-i18n="heroStatus">0.0.2: Era 1 &amp; 2 spielbar · Entwicklung entdecken</span>
           <span aria-hidden="true">↓</span>
         </a>
         </div>
@@ -98,12 +100,12 @@
       <div class="shell intro-grid">
         <div class="section-heading reveal">
           <p class="kicker" data-i18n="introKicker">Versalox</p>
-          <h2 id="intro-title" data-i18n="introTitle">Sammeln. Verarbeiten. Bauen.</h2>
+          <h2 id="intro-title" data-i18n="introTitle">Überleben ist der Anfang.</h2>
         </div>
         <div class="intro-copy reveal">
-          <p data-i18n="introCopy">Beginne mit Nahrung, Wasser und einem Schlafplatz. Verarbeite Holz und Lehm zu nützlichen Materialien, verbinde deine Werkstationen und entwickle aus einem vorläufigen Lager eine funktionierende Siedlung.</p>
+          <p data-i18n="introCopy">Beginne mit Nahrung, Wasser und einem Schlafplatz. Aus Holz, Lehm und ersten Werkstationen entsteht eine Siedlung. Im aktuellen Entwicklungsstand führt der Weg weiter zu Metallverarbeitung, Energie und steuerbaren Anlagen.</p>
           <div class="fact-row" aria-label="Fakten über Versalox" data-i18n-aria="factsAria">
-            <div><strong>2</strong><span data-i18n="factEras">spielbare Eras</span></div>
+            <div><strong>2</strong><span data-i18n="factEras">Eras im öffentlichen Download</span></div>
             <div><strong>5</strong><span data-i18n="factLanguages">unterstützte Sprachen</span></div>
             <div><strong>1</strong><span data-i18n="factDeveloper">unabhängiger Entwickler</span></div>
           </div>
@@ -153,14 +155,19 @@
           <div class="development-note">
             <span class="status-dot" aria-hidden="true"></span>
             <div>
-              <strong data-i18n="activeDevelopment">Als Nächstes: Era 3</strong>
-              <span data-i18n="releaseNote">Era 3 wird aktuell implementiert. Sie ist im öffentlichen Prototyp 0.0.2 noch nicht enthalten; ein Veröffentlichungstermin steht noch nicht fest.</span>
+              <strong data-i18n="activeDevelopment">Im Projekt: Energie, Versux &amp; Vorysken</strong>
+              <span data-i18n="releaseNote">Der Entwicklungsstand geht inzwischen über Era 2 hinaus. Die neuen Maschinen-, Steuerungs- und Lagersysteme sind noch nicht im öffentlichen Download 0.0.2 enthalten.</span>
             </div>
           </div>
-          <p class="vision-note">Langfristige Vision: ein Grundgerüst aus 17 Eras. Der öffentliche Prototyp umfasst aktuell Era 1 und 2.</p>
+          <p class="vision-note">Von den ersten Werkzeugen bis zur vernetzten Produktion: Erfahre, was im Projekt bereits erprobt wird und wohin Versalox wachsen soll. <a href="/de/development.html">Entwicklungsstand entdecken →</a></p>
         </div>
       </div>
     </section>
+
+    <section class="section development-section" id="development" aria-labelledby="development-title"><div class="shell"><div class="development-heading"><div><p class="kicker">Versalox wächst weiter</p><h2 id="development-title">Deine Siedlung lernt zu arbeiten.</h2></div><p>Maschinen versorgen, Abläufe steuern und Vorräte organisieren: Ein Einblick in die neuen Systeme des Entwicklungsstands.</p></div><p class="development-context">Im Projekt werden weiterführende Eras und neue Systeme erprobt. Umfang, Gestaltung und Balance entwickeln sich weiter; diese Inhalte gehören noch nicht zu 0.0.2.</p><div class="development-card-grid"><article class="development-card"><span class="feature-number">01</span><h3>Energie &amp; Maschinen</h3><p>Aus Holzkohle wird Wärme, aus Wärme Bewegung und daraus elektrische Energie. Leitungen verbinden deine Maschinen.</p><a class="codex-system-link" href="/de/codex-energy-networks.html">Artikel lesen →</a></article>
+<article class="development-card"><span class="feature-number">02</span><h3>Versux · Deine Abläufe</h3><p>Schreibe Programme auf einer Konsole und steuere Geräte über Datenleitungen. Eine Lampe bei Dunkelheit schalten ist ein erster Anwendungsfall.</p><a class="codex-system-link" href="/de/codex-versux.html">Artikel lesen →</a></article>
+<article class="development-card"><span class="feature-number">03</span><h3>Tablet · Unterwegs zugreifen</h3><p>Greife per Funk auf eine geeignete Konsole zu. Die Apps für Versux, Geräte und Lager bringen dein Netz auf den Tabletbildschirm.</p><a class="codex-system-link" href="/de/codex-versux-tablet.html">Artikel lesen →</a></article>
+<article class="development-card"><span class="feature-number">04</span><h3>Vorysken · Vorräte verbinden</h3><p>Eine Zentrale verwaltet modulare Speicher. Transportleitungen bringen Ressourcen aus der Produktion ins Lager.</p><a class="codex-system-link" href="/de/codex-vorysken.html">Artikel lesen →</a></article></div><div class="development-actions"><a class="button button-primary" href="/de/development.html">Entwicklungsstand entdecken →</a><span>Grundlage: Projektstand vom 30. September 2026</span></div></div></section>
 
     <section class="section gallery-section" aria-labelledby="gallery-title">
       <div class="shell section-heading gallery-heading reveal">
@@ -224,6 +231,7 @@
         <a class="button button-primary" href="https://versaliate.itch.io/" target="_blank" rel="noopener" data-i18n="visitItch">Versaliate auf itch.io besuchen</a>
       </div>
     </section>
+    <section class="paper-section section" id="system-paper" aria-labelledby="paper-title"><div class="shell"><div class="paper-panel"><div><p class="kicker">Das Versalox-Paper</p><h2 id="paper-title">Spiel und Systeme im Zusammenhang.</h2><p>Von 0,5-Meter-Blöcken und Texturen über Materialien und freie Platzierung bis zu Versux und Vorysken. Mit Diagrammen, Beispielen und dem registrierten Inhaltskatalog.</p><p class="paper-meta">52 Seiten · Deutsch · Projektstand 11. Oktober 2026</p><p class="paper-note">Vorhandene Prototypsysteme und Planungen sind gekennzeichnet. Der öffentliche Download bleibt 0.0.2.</p></div><div class="paper-actions"><a class="button button-primary" href="/assets/papers/versalox-spiel-und-systemreferenz.pdf" type="application/pdf" hreflang="de">Paper lesen (PDF) →</a><a class="paper-download" href="/assets/papers/versalox-spiel-und-systemreferenz.pdf" download="Versalox-Spiel-und-Systemreferenz.pdf" type="application/pdf" hreflang="de">PDF herunterladen ↓</a></div></div></div></section>
   </main>
 
   <footer class="site-footer">

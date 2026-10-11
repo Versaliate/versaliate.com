@@ -1,11 +1,13 @@
 (() => {
   const search = document.getElementById("codex-search");
   const categoryBar = document.getElementById("codex-categories");
+  const releaseBar = document.getElementById("codex-release-filters");
   const count = document.getElementById("codex-count");
   const cards = [...document.querySelectorAll(".codex-card")];
   if (!search || !categoryBar || !count || !cards.length) return;
 
   let activeCategory = "all";
+  let activeRelease = "all";
   const normalise = (value) => value.toLocaleLowerCase(document.documentElement.lang).normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
   function applyFilters() {
@@ -14,7 +16,8 @@
     cards.forEach((card) => {
       const matchesCategory = activeCategory === "all" || card.dataset.category === activeCategory;
       const matchesSearch = !query || normalise(card.dataset.search ?? card.textContent).includes(query);
-      card.hidden = !(matchesCategory && matchesSearch);
+      const matchesRelease = activeRelease === "all" || card.dataset.release === activeRelease;
+      card.hidden = !(matchesCategory && matchesSearch && matchesRelease);
       if (!card.hidden) visible += 1;
     });
 
@@ -34,4 +37,11 @@
   });
 
   search.addEventListener("input", applyFilters);
+  releaseBar?.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-release]");
+    if (!button) return;
+    activeRelease = button.dataset.release;
+    releaseBar.querySelectorAll("button").forEach((candidate) => candidate.setAttribute("aria-pressed", String(candidate === button)));
+    applyFilters();
+  });
 })();
