@@ -40,4 +40,14 @@ The Codex now has 19 entries per language: 15 covering Prototype 0.0.2 and four 
 
 ## Game and systems paper
 
-The German PDF at `assets/papers/versalox-spiel-und-systemreferenz.pdf` contains 52 pages, 32 explanatory chapters, diagrams, examples and a full snapshot of the registered content (187 items, 20 materials, 121 recipes, 129 main objectives and 50 optional quests). It is linked from the landing, development and Codex overview pages in all five languages; the links explicitly identify the PDF language. The paper uses the local project snapshot of 11 October 2026 and includes a source register. It distinguishes public 0.0.2, current prototype systems and future plans. Its catalog lists registered data, not a release or balance guarantee.
+The complete game and systems reference is available in all five website languages. Each landing, development and Codex overview page links to its matching PDF.
+
+| Language | Pages | PDF |
+| --- | ---: | --- |
+| Deutsch | 52 | [Download](assets/papers/versalox-spiel-und-systemreferenz.pdf) |
+| English | 54 | [Download](assets/papers/versalox-game-and-systems-reference.pdf) |
+| Français | 57 | [Download](assets/papers/versalox-reference-du-jeu-et-des-systemes.pdf) |
+| Español | 57 | [Download](assets/papers/versalox-referencia-del-juego-y-sus-sistemas.pdf) |
+| Português (Brasil) | 54 | [Download](assets/papers/versalox-referencia-do-jogo-e-dos-sistemas.pdf) |
+
+All editions contain 32 explanatory chapters, diagrams, examples and the full registered content snapshot: 187 items, 20 materials, 121 recipes, 129 main objectives and 50 optional quests. The editions use the project snapshot of 11 October 2026 and include a source register. They distinguish public 0.0.2, current prototype systems and future plans. The catalog lists registered data, not a release or balance guarantee. Executable code, API identifiers and numeric values are preserved; translated item and material names retain the original catalog names for lookup.
